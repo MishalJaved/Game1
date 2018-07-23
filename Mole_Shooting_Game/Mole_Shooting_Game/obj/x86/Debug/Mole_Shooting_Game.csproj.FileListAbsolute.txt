@@ -1,0 +1,10 @@
+c:\users\mishaleman\documents\visual studio 2010\Projects\Mole_Shooting_Game\Mole_Shooting_Game\bin\Debug\Mole_Shooting_Game.exe
+C:\Users\mishAlemAn\documents\visual studio 2010\Projects\Mole_Shooting_Game\Mole_Shooting_Game\obj\x86\Debug\Mole_Shooting_Game.Form1.resources
+C:\Users\mishAlemAn\documents\visual studio 2010\Projects\Mole_Shooting_Game\Mole_Shooting_Game\obj\x86\Debug\Mole_Shooting_Game.Form2.resources
+C:\Users\mishAlemAn\documents\visual studio 2010\Projects\Mole_Shooting_Game\Mole_Shooting_Game\obj\x86\Debug\Mole_Shooting_Game.Form3.resources
+C:\Users\mishAlemAn\documents\visual studio 2010\Projects\Mole_Shooting_Game\Mole_Shooting_Game\obj\x86\Debug\Mole_Shooting_Game.Properties.Resources.resources
+C:\Users\mishAlemAn\documents\visual studio 2010\Projects\Mole_Shooting_Game\Mole_Shooting_Game\obj\x86\Debug\Mole_Shooting_Game.csproj.GenerateResource.Cache
+C:\Users\mishAlemAn\documents\visual studio 2010\Projects\Mole_Shooting_Game\Mole_Shooting_Game\obj\x86\Debug\Mole_Shooting_Game.exe
+C:\Users\mishAlemAn\documents\visual studio 2010\Projects\Mole_Shooting_Game\Mole_Shooting_Game\obj\x86\Debug\Mole_Shooting_Game.pdb
+C:\Users\mishAlemAn\documents\visual studio 2010\Projects\Mole_Shooting_Game\Mole_Shooting_Game\obj\x86\Debug\Mole_Shooting_Game.csprojResolveAssemblyReference.cache
+C:\Users\mishAlemAn\Documents\Visual Studio 2010\Projects\Mole_Shooting_Game\Mole_Shooting_Game\bin\Debug\Mole_Shooting_Game.pdb

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3D635C44-73EF-41B9-A23C-BBA22E69A073}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mole_Shooting_Game</RootNamespace>
+    <AssemblyName>Mole_Shooting_Game</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\800px_COLOURBOX5171159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\07583b012a1098c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9057c6564be914e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\23282_7f309824b5256ff154ca6e97ba8ce2ea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\025629dd3a28693.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\68563f27984ea87.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\75560aa4fe36b04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\96560d58058403e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\605614b8d035a3a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2157995d3895bd3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7856639324bb6f6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\simple-nature-background-vector-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock-vector-a-high-quality-horizontal-seamless-background-of-landscape-with-deep-forest-555408847.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock-vector-illustration-sunny-morning-in-the-jungle-with-bird-toucan-305082146.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whack-a-groundhog-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\891c8f61b96681cc0471a6808d68b1dd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\butterfly 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2810%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock-photo-color-butterfly-flying-isolated-on-white-146449802.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock-photo-color-butterfly-flying-isolated-on-white-1464498021.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock-vector-beautiful-yellow-and-orange-sitting-or-flying-butterfly-monarch-cartoon-vector-illustration-in-580368778.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kkkk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\68563f27984ea871.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
